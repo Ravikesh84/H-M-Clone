@@ -1,0 +1,268 @@
+*{
+    box-sizing: border-box;
+    font-family: poppins;
+}
+.header {
+  .left {
+    display: flex;
+
+    ul {
+      display: flex;
+      gap: 20px;
+    }
+  }
+
+  .middle {
+    div {
+      img {
+        height: 50px;
+        position: relative;
+        bottom: 30px;
+      }
+    }
+  }
+
+  .right {
+    ul {
+      display: flex;
+      float: right;
+      position: relative;
+      bottom: 100px;
+      right: 40px;
+      gap: 30px;
+    }
+    a {
+      text-decoration: none;
+      font-size: 16px;
+    }
+  }
+}
+
+.navbar {
+  ul {
+    display: flex;
+    gap: 30px;
+    width: fit-content;
+    position: relative;
+    left: 155px;
+  }
+  a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-family: sans-serif;
+  }
+  a:hover{
+    text-decoration: underline;
+  }
+}
+.search {
+  input[type="search"] {
+    float: right;
+    position: relative;
+    right: 35px;
+    bottom: 40px;
+    padding: 5px 3px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+  }
+  i {
+    float: right;
+    position: relative;
+    right: 35px;
+    bottom: 40px;
+    padding: 5px 3px;
+  }
+}
+
+//   ******************images******************
+
+.main {
+  display: flex;
+  padding-top: 40px;
+  .l-side {
+    height: 135px;
+    padding-left: 25px;
+    width: 25%;
+    background-color: white;
+        h4{
+            font-size: 16px;
+            font-weight: 500;
+        }
+        p{
+            font-size: 12px;
+        }
+    
+  }
+  .m-side {
+    width: 100%;
+    background-image: url("images/hmgoepprod (4).jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 600px;
+    background-color: #fdf2e9;
+    div{
+    position: relative;
+    top: 70%;
+    color: white;
+    }
+    button{
+        padding: 7px 15px;
+        font-weight: 600;
+        color: black;
+    }
+    }
+  }
+  .main4{
+    display:flex;
+    padding-top: 30px;
+    .l2-side{
+        width: 16.9%;
+    }
+    .m2-side{
+        width: 66%;
+        background-color: #F0B27A ;
+        color: white;
+        button{
+            position: relative;
+            bottom: 10px;
+            padding: 7px 15px;
+        }
+        p{
+            font-size: 12px;
+        }
+    }
+}
+
+.kidswear{
+    display: flex;
+    .l3-side{
+        width: 16.9%;
+    }
+    .m3-side{
+        width: 66%;
+        .ma{
+            display: flex;
+            gap:30px;
+            
+            a{
+                text-decoration: none;
+                font-size: small;
+                color: gray;
+                padding: 2px 5px;
+            }
+        }
+    }
+}
+
+.cute{
+    display: flex;
+    padding-top:30px;
+    .l4-side{
+        width: 16.9%;
+    }
+    .m4-side{
+        background-image:url("images/hmgoepprodcute.png") ;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 66%;
+        height: 650px;
+        .mb{
+            position: relative;
+            top: 70%;
+            color: white;
+            font-size: 20px;
+            button{
+                position: relative;
+                bottom: 20px;
+                padding: 7px 15px;
+            }
+        }
+    }
+}
+.babycloth{
+    display: flex;
+    padding-top:30px;
+    .l5-side{
+        width: 16.9%;
+       
+    }
+    .m5-side{
+        width: 66%;
+    }
+}
+.footer {
+    display: flex;
+    background-color: #e4e4e4;
+    height: 300px;
+    padding: 30px;
+    margin-top: 30px;
+  
+    .l-foot {
+      height: 0px;
+      width: 20%;
+      background-color: #e4e4e4;
+    }
+  
+    .m-foot {
+    
+      height: 280px;
+      width: 100%;
+      display: flex;
+      gap: 80px;
+      p{
+          font-size: 13px;
+      }
+      
+      .mf1{
+          width: 15%;  
+      }
+      .mf2{
+          width: 15%;
+      }
+      .mf3{
+          width: 15%;
+      }
+      .mf4{
+          position: relative;
+          top: 15%;
+          width: 15%;
+      }
+    }
+  
+    .r-foot {
+      height: 220px;
+      width: 20%;
+      background-color: #e4e4e4;
+    }
+    
+  }
+  .footer2{
+      display: flex;
+      background-color: #e4e4e4;
+      height: 300px;
+      .l2-foot{
+          width: 20%;
+          background-color:#e4e4e4;
+      }
+      .m2-foot{
+          width: 60%;
+          height: 300px;
+          background-color:#e4e4e4;
+          .icons {
+  
+            ul{  display: flex;
+              gap: 60px;
+              position: relative;
+              left: 25%;
+            }
+          }
+          .f-logo{
+              position: relative;
+              top: 20%;
+              font-size: small;
+          }
+      }
+  }
+  

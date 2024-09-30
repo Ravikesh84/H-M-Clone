@@ -1,0 +1,91 @@
+.main{
+    display: flex;
+    .c-side{
+        height: 220px;
+        width: 20%;
+        background-color: white;
+    }
+
+    .m-side{
+        
+        background-image: url("images/WS20m_3x2-1.avif");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        height: 600px;
+        width: 60%;
+        div{
+           position: relative;
+           top: 400px;
+           color: white;
+
+           h3{
+            font-size: 20px;
+            position: relative;
+            top: 20px;
+           }
+           h1{
+            font-size: 42px;
+           }
+           button{
+            padding: 7px 15px;
+            position: relative;
+            bottom: 10px;
+            
+           }
+        }
+    }
+
+    .r-side{
+        height: 220px;
+        width: 20%;
+        background-color: white;
+    }
+}
+
+.main2{
+    display: flex;
+    padding-top: 40px;
+    .c-side{
+        height: 220px;
+        width: 20%;
+        background-color: white;
+    }
+
+    .m-side{
+        background-image: url("images/MS20E-teaser2-3x2-1-2 2-summer-sophistication.avif");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        height: 600px;
+        width: 60%;
+
+        div{
+            position: relative;
+            top: 370px;
+            color: white;
+ 
+            h3{
+             font-size: 20px;
+             position: relative;
+             top: 20px;
+            }
+            h1{
+             font-size: 42px;
+            }
+            h4{
+                font-size: 16px;
+                position: relative;
+                bottom: 18px;
+            }
+            button{
+             padding: 7px 15px;
+             position: relative;
+             bottom: 20px;
+            }
+         }
+    }
+    .r-side{
+        height: 220px;
+        width: 20%;
+        background-color: white;
+    }
+}

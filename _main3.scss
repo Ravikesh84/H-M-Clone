@@ -1,0 +1,216 @@
+.main3{
+    display: flex;
+    padding-top: 40px;
+    .c-side {
+        height: 135px;
+        width: 20%;
+        background-color: white;
+    }    
+    .m-side{
+        width: 60%;
+        background-color: #FDF2E9 ;
+        h3{
+            color: #E50010;
+            font-size: 19px;
+        
+        }
+        p{
+            font-size: 15px;
+            padding: 4px 60px 0px;
+        }
+        button{
+            background-color: #FDF2E9;
+            padding: 5px 7px;
+            position: relative;
+            font-size: large;
+        }
+        
+        }
+    }
+    .r-side {
+        height: 135px;
+        width: 20%;
+        background-color: white;
+    }
+
+
+.arrivals{
+    display: flex;
+    .c-side{
+        height: 80px;
+        width: 20%;
+        background-color:white;
+    }
+    .m-side{
+        width: 60%;
+        button{
+            padding: 10px 20px ;
+            border-radius: 30px;
+            font-size: medium;
+            margin: 10px;
+        }
+        button:hover{
+            background-color: #E50010;
+            color: white;
+            border: none;
+        }
+    }
+    .r-side{
+        height: 80px;
+        width: 20%;
+        background-color: white;
+    } 
+}
+#l{
+    background-color: #E50010;
+    color: white;
+    border: none;
+}
+
+.ladiesimg{
+    display: flex;
+    .c-side{
+        height: 80px;
+        width: 20%;
+        background-color:white;
+    }
+    .m-side{
+        width: 60%;
+        .m1{
+            display: flex;
+            background-color: #ebf5fb;
+            a{
+                padding: 12px;
+                text-decoration: none;
+                color: gray;
+                
+            }
+            
+        }
+        
+    }
+    .r-side{
+        height: 80px;
+        width: 20%;
+        background-color:white;
+    }
+    
+}
+
+.girl-boy{
+    display: flex;
+    padding-top: 40px;
+    .c-side{
+        height: 80px;
+        width: 20%;
+        background-color:white;
+    }
+    .m-side{
+        background-image: url("images/4060I-3x2-1-summer-ease.avif");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        width: 60%;
+        height: 600px;
+        .m2{
+            text-align: center;
+            position: relative;
+            top: 60%;
+            h1{
+                color: white;
+                font-size: 50px;
+            }
+            button{
+                padding: 7px 14px;
+                font-size: large;
+                font-weight: 600;
+            }
+        }
+    }
+    .r-side{
+        height: 80px;
+        width: 20%;
+        background-color:white;
+    }
+}
+
+.main3-1{
+    display: flex;
+    padding-top: 40px;
+    .c-side {
+        height: 135px;
+        width: 20%;
+        background-color: white;
+    }    
+    .m-side{
+        width: 60%;
+        background-color:rgb(34,34,34,0.3);
+        h3{
+            color: white;
+            font-size: 19px;
+        
+        }
+        p{
+            font-size: 15px;
+            color: white;
+            padding: 4px 60px 0px;
+        }
+        button{
+            background-color: white;
+            padding: 5px 10px;
+            position: relative;
+            font-size: large;
+            border: none;
+        }
+    }
+    .r-side {
+        height: 135px;
+        width: 20%;
+        background-color: white;
+    }
+}
+
+.main2-1 {
+    display: flex;
+    padding-top: 40px;
+    .c-side {
+        height: 220px;
+        width: 20%;
+        background-color: white;
+    }
+    .m-side {
+        background-image:linear-gradient(to bottom,rgba(255, 255, 255, 0.095)60%,rgba(0, 0, 0, 0.5)80%) , url("images/new-DS20D-3x2-1-summer-update.avif");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        height: 600px;
+        width: 60%;
+        div {
+            position: relative;
+            top:70%;
+            color: white;
+            h3 {
+                font-size: 20px;
+                position: relative;
+                top: 20px;
+              
+            }
+            h1 {
+                font-size: 42px;
+            }
+            h4 {
+                font-size: 16px;
+                position: relative;
+                bottom: 18px;
+            }
+            button {
+                padding: 7px 15px;
+                position: relative;
+                bottom: 20px;
+            }
+        }
+    }
+    .r-side {
+        height: 220px;
+        width: 20%;
+        background-color: white;
+    }
+}
